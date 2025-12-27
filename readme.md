@@ -1,6 +1,8 @@
-# RudderStack Test Automation Framework
+# Orbit: Playwright OpenSource Test Automation Framework
 
-TypeScript-based test automation framework for RudderStack using Playwright with Allure reporting.
+TypeScript-based test automation framework for any UI / API / DB using Playwright with Allure reporting.
+
+**Example Site: rudderstack.com - We will automate couple of scenarios using in this site**
 
 **Designed & Developed by:** Chaitanya Vaddi
 
@@ -259,4 +261,5 @@ docker build -t rudderstack-tests .
 docker run --rm rudderstack-tests npm run test:qa:smoke
 
 ```
+
 
